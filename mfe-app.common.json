@@ -1,0 +1,4 @@
+{
+  "isHost": true,
+  "build": "./dist"
+}
