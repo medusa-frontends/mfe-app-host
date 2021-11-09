@@ -1,10 +1,10 @@
 {
-  "name": "@mfe/host",
+  "name": "@mfe/app-host",
   "version": "0.0.0",
   "description": "MFE main application",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "webpack serve",
+    "mfe:start": "webpack serve",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",

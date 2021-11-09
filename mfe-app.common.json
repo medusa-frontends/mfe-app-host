@@ -1,4 +1,5 @@
 {
-  "isHost": true,
-  "build": "./dist"
+  "endpoint": {
+    "port": 3000
+  }
 }
