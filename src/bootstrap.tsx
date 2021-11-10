@@ -6,7 +6,7 @@ import { Home } from '@mfe/app-home'
 import { Layout } from '@mfe/app-layout'
 import React from 'react'
 import ReactDOM from 'react-dom'
-console.log(123)
+
 const App = () => {
   return (
     <Layout>
