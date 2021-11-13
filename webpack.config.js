@@ -1,6 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { MFEPlugin } = require('@mfe/webpack-plugin')
+const { MedusaPlugin } = require('@medusa/webpack-plugin')
 
 const env = {
   production: process.env.NODE_ENV === 'production',
@@ -24,7 +24,7 @@ const config = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
-    new MFEPlugin(),
+    new MedusaPlugin(),
   ],
   module: {
     rules: [
