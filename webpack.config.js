@@ -1,6 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { MedusaPlugin } = require('@medusa-frontends/webpack-plugin')
+const { MedusaPlugin } = require('@medusa/webpack-plugin')
 
 const env = {
   production: process.env.NODE_ENV === 'production',
